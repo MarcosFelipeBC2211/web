@@ -1,0 +1,107 @@
+:root{ 
+    --textoBranco: #FFFFFF;
+    --textoPreto: #000000;
+    --primaria: #221F3B; 
+    --secundaria: #6F4A8E;
+    --terciaria: #050505;
+    --quaternaria: #EBEBEB;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.imagemDoCliente{
+    width: inherit;
+    margin: 0 auto;
+    height: 73px;
+    align-items: center;
+    display: flex;
+    border-radius: 100%;
+    margin-top: -74px;
+}
+
+.div-card-orcamento{
+    position: relative;
+    width: 400px;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    font-family: helvetica;
+    padding-bottom: 10px;
+}
+
+.div-titulo-formulario-solicitacao{
+    background-color: var(--secundaria);
+    width: 100%;
+    position: relative;
+    text-align: center;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    font-family: helvetica;
+    padding-bottom: 10px;
+    color: var(--textoBranco);
+    font-weight: 600;
+}
+
+body{
+    background-color:#221F3B;
+}
+.containerOrcamento{
+    background-color: var(--quaternaria);
+}
+
+
+.col {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.cardOrcamento {
+    position: relative;
+    margin: .5rem 0 1rem 0;
+    justify-content: center;
+    background-color: #fff;
+    transition: box-shadow .25s;
+    border-radius: 20px;
+}
+
+.formulario{
+    background-color: inherit;
+    border-top: 1px solid rgba(160,160,160,0.2);
+    background-color: #6F4A8E;
+    position: relative;
+    height: 120px;
+    padding: 16px 24px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+ .botao{
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    padding: 0 28px;
+
+    text-decoration: none;
+    color: #fff;
+    background-color: #6F4A8E;
+    text-align: center;
+    letter-spacing: .5px;
+    transition: background-color .2s ease-out;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.botao:focus{
+    background-color: #6F4A8E;
+    text-align: center;
+    
+}
